@@ -1,0 +1,26 @@
+C:\Users\Uriel Ramos\source\repos\login nerv\login nerv\bin\Debug\login nerv.exe.config
+C:\Users\Uriel Ramos\source\repos\login nerv\login nerv\bin\Debug\login nerv.exe
+C:\Users\Uriel Ramos\source\repos\login nerv\login nerv\bin\Debug\login nerv.pdb
+C:\Users\Uriel Ramos\source\repos\login nerv\login nerv\bin\Debug\login nerv.xml
+C:\Users\Uriel Ramos\source\repos\login nerv\login nerv\obj\Debug\login nerv.vbprojResolveAssemblyReference.cache
+C:\Users\Uriel Ramos\source\repos\login nerv\login nerv\obj\Debug\login_nerv.Form1.resources
+C:\Users\Uriel Ramos\source\repos\login nerv\login nerv\obj\Debug\login_nerv.Form2.resources
+C:\Users\Uriel Ramos\source\repos\login nerv\login nerv\obj\Debug\login_nerv.Resources.resources
+C:\Users\Uriel Ramos\source\repos\login nerv\login nerv\obj\Debug\login nerv.vbproj.GenerateResource.Cache
+C:\Users\Uriel Ramos\source\repos\login nerv\login nerv\obj\Debug\login nerv.vbproj.CoreCompileInputs.cache
+C:\Users\Uriel Ramos\source\repos\login nerv\login nerv\obj\Debug\login nerv.exe
+C:\Users\Uriel Ramos\source\repos\login nerv\login nerv\obj\Debug\login nerv.xml
+C:\Users\Uriel Ramos\source\repos\login nerv\login nerv\obj\Debug\login nerv.pdb
+C:\Users\Kyo\Documents\NERV\login nerv\login nerv\bin\Debug\login nerv.exe.config
+C:\Users\Kyo\Documents\NERV\login nerv\login nerv\bin\Debug\login nerv.exe
+C:\Users\Kyo\Documents\NERV\login nerv\login nerv\bin\Debug\login nerv.pdb
+C:\Users\Kyo\Documents\NERV\login nerv\login nerv\bin\Debug\login nerv.xml
+C:\Users\Kyo\Documents\NERV\login nerv\login nerv\obj\Debug\login nerv.vbprojResolveAssemblyReference.cache
+C:\Users\Kyo\Documents\NERV\login nerv\login nerv\obj\Debug\login_nerv.Form1.resources
+C:\Users\Kyo\Documents\NERV\login nerv\login nerv\obj\Debug\login_nerv.Form2.resources
+C:\Users\Kyo\Documents\NERV\login nerv\login nerv\obj\Debug\login_nerv.Resources.resources
+C:\Users\Kyo\Documents\NERV\login nerv\login nerv\obj\Debug\login nerv.vbproj.GenerateResource.Cache
+C:\Users\Kyo\Documents\NERV\login nerv\login nerv\obj\Debug\login nerv.vbproj.CoreCompileInputs.cache
+C:\Users\Kyo\Documents\NERV\login nerv\login nerv\obj\Debug\login nerv.exe
+C:\Users\Kyo\Documents\NERV\login nerv\login nerv\obj\Debug\login nerv.xml
+C:\Users\Kyo\Documents\NERV\login nerv\login nerv\obj\Debug\login nerv.pdb
