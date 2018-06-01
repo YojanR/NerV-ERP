@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="NegociosCliente.cs" />
     <Compile Include="NegociosUsuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -52,10 +53,6 @@
     <ProjectReference Include="..\ClassLibrary2\CapaDatos.csproj">
       <Project>{50fd3ebd-c3fe-4795-89d8-c72dd660cd65}</Project>
       <Name>CapaDatos</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Nerv\CapaPresentacion.csproj">
-      <Project>{5f50f2a4-a737-4397-a61f-6b7e3ac0ba9a}</Project>
-      <Name>CapaPresentacion</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

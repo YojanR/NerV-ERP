@@ -29,6 +29,7 @@ namespace Nerv
             PosicionarSMSegs();
             PosicionarSMs();
         }
+        Boolean VerificacionTxt = false;
         public void OcultarSubmenus()
         {
             panelCatalogos.Visible = false;
@@ -206,6 +207,37 @@ namespace Nerv
             CatalogoProveedores Cprov = new CatalogoProveedores();
             Cprov.Show();
             this.Close();
+        }
+
+        private Boolean VerificarCamposDeTexto()
+        {
+            if (TxtCategoria_Producto.Text.Length < 15)
+            {
+                if (int.Parse(TxtClave_Producto.Text) >= 0)
+                {
+                    if (TxtNombre_Producto.Text.Length < 5)
+                    {
+                        return VerificacionTxt = true;
+                    }
+                    else
+                    {
+                        MessageBox.Show("El nombre ingresado no es válido");
+                        return VerificacionTxt = false;
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("La Clave del Producto ingresada no es válida");
+                    return VerificacionTxt = false;
+
+                }
+
+            }
+            else
+            {
+                MessageBox.Show("La Categoria ingresada no es válida");
+                return VerificacionTxt = false;
+            }
         }
     }
 }

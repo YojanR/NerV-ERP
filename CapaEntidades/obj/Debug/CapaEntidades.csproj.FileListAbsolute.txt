@@ -1,0 +1,9 @@
+C:\Nerv\CapaEntidades\bin\Debug\CapaEntidades.dll
+C:\Nerv\CapaEntidades\bin\Debug\CapaEntidades.pdb
+C:\Nerv\CapaEntidades\bin\Debug\MySql.Data.dll
+C:\Nerv\CapaEntidades\bin\Debug\Google.Protobuf.dll
+C:\Nerv\CapaEntidades\bin\Debug\MySql.Data.xml
+C:\Nerv\CapaEntidades\obj\Debug\CapaEntidades.csprojResolveAssemblyReference.cache
+C:\Nerv\CapaEntidades\obj\Debug\CapaEntidades.csproj.CoreCompileInputs.cache
+C:\Nerv\CapaEntidades\obj\Debug\CapaEntidades.dll
+C:\Nerv\CapaEntidades\obj\Debug\CapaEntidades.pdb

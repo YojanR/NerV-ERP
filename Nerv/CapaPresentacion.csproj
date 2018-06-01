@@ -182,5 +182,15 @@
   <ItemGroup>
     <None Include="Resources\nerv.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CapaEntidades\CapaEntidades.csproj">
+      <Project>{03A2DC9C-117E-4EAE-B432-A0641CEFFFAA}</Project>
+      <Name>CapaEntidades</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ClassLibrary1\CapaNegocios.csproj">
+      <Project>{a4abb76f-ae73-4962-8ee7-c7793675bc0c}</Project>
+      <Name>CapaNegocios</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

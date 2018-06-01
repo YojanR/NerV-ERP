@@ -1,0 +1,13 @@
+C:\Nerv\ClassLibrary2\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Nerv\ClassLibrary2\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\Kyo\source\repos\Nerv\ClassLibrary2\bin\Debug\ClassLibrary2.dll
+C:\Users\Kyo\source\repos\Nerv\ClassLibrary2\bin\Debug\ClassLibrary2.pdb
+C:\Users\Kyo\source\repos\Nerv\ClassLibrary2\bin\Debug\CapaEntidades.dll
+C:\Users\Kyo\source\repos\Nerv\ClassLibrary2\bin\Debug\MySql.Data.dll
+C:\Users\Kyo\source\repos\Nerv\ClassLibrary2\bin\Debug\Google.Protobuf.dll
+C:\Users\Kyo\source\repos\Nerv\ClassLibrary2\bin\Debug\CapaEntidades.pdb
+C:\Users\Kyo\source\repos\Nerv\ClassLibrary2\bin\Debug\MySql.Data.xml
+C:\Users\Kyo\source\repos\Nerv\ClassLibrary2\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\Kyo\source\repos\Nerv\ClassLibrary2\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\Kyo\source\repos\Nerv\ClassLibrary2\obj\Debug\ClassLibrary2.dll
+C:\Users\Kyo\source\repos\Nerv\ClassLibrary2\obj\Debug\ClassLibrary2.pdb

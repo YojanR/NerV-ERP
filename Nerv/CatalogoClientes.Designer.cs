@@ -29,54 +29,55 @@
         private void InitializeComponent()
         {
             this.panelSeguridad = new System.Windows.Forms.Panel();
-            this.panelOperaciones = new System.Windows.Forms.Panel();
-            this.panelCatalogos = new System.Windows.Forms.Panel();
-            this.panelReportes = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
             this.SMSeg1 = new System.Windows.Forms.PictureBox();
+            this.panelOperaciones = new System.Windows.Forms.Panel();
             this.SMOp2 = new System.Windows.Forms.PictureBox();
             this.SMOp1 = new System.Windows.Forms.PictureBox();
+            this.panelCatalogos = new System.Windows.Forms.Panel();
             this.SMCat2 = new System.Windows.Forms.PictureBox();
             this.SMCat3 = new System.Windows.Forms.PictureBox();
             this.SMCat1 = new System.Windows.Forms.PictureBox();
+            this.panelReportes = new System.Windows.Forms.Panel();
             this.SMRep2 = new System.Windows.Forms.PictureBox();
             this.SMRep3 = new System.Windows.Forms.PictureBox();
             this.SMRep1 = new System.Windows.Forms.PictureBox();
             this.SMRep4 = new System.Windows.Forms.PictureBox();
-            this.panel3 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.MenuSeguridad = new System.Windows.Forms.PictureBox();
             this.MenuReportes = new System.Windows.Forms.PictureBox();
             this.MenuOperaciones = new System.Windows.Forms.PictureBox();
             this.MenuCatalogos = new System.Windows.Forms.PictureBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.Label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.Label1 = new System.Windows.Forms.Label();
+            this.TxtTelefonoCliente = new System.Windows.Forms.TextBox();
+            this.TxtNombreCliente = new System.Windows.Forms.TextBox();
+            this.TxtClaveCliente = new System.Windows.Forms.TextBox();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.BtnRegistrarCliente = new System.Windows.Forms.Button();
             this.panelSeguridad.SuspendLayout();
-            this.panelOperaciones.SuspendLayout();
-            this.panelCatalogos.SuspendLayout();
-            this.panelReportes.SuspendLayout();
-            this.panel2.SuspendLayout();
-            this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.SMSeg1)).BeginInit();
+            this.panelOperaciones.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.SMOp2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SMOp1)).BeginInit();
+            this.panelCatalogos.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.SMCat2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SMCat3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SMCat1)).BeginInit();
+            this.panelReportes.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.SMRep2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SMRep3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SMRep1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SMRep4)).BeginInit();
+            this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.MenuSeguridad)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.MenuReportes)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.MenuOperaciones)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.MenuCatalogos)).BeginInit();
+            this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -90,6 +91,16 @@
             this.panelSeguridad.Size = new System.Drawing.Size(160, 405);
             this.panelSeguridad.TabIndex = 15;
             // 
+            // SMSeg1
+            // 
+            this.SMSeg1.BackgroundImage = global::Nerv.Properties.Resources.nerv;
+            this.SMSeg1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.SMSeg1.Location = new System.Drawing.Point(12, 13);
+            this.SMSeg1.Name = "SMSeg1";
+            this.SMSeg1.Size = new System.Drawing.Size(57, 58);
+            this.SMSeg1.TabIndex = 0;
+            this.SMSeg1.TabStop = false;
+            // 
             // panelOperaciones
             // 
             this.panelOperaciones.BackColor = System.Drawing.Color.Silver;
@@ -100,76 +111,6 @@
             this.panelOperaciones.Name = "panelOperaciones";
             this.panelOperaciones.Size = new System.Drawing.Size(160, 405);
             this.panelOperaciones.TabIndex = 14;
-            // 
-            // panelCatalogos
-            // 
-            this.panelCatalogos.BackColor = System.Drawing.Color.Silver;
-            this.panelCatalogos.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panelCatalogos.Controls.Add(this.SMCat2);
-            this.panelCatalogos.Controls.Add(this.SMCat3);
-            this.panelCatalogos.Controls.Add(this.SMCat1);
-            this.panelCatalogos.Location = new System.Drawing.Point(338, 17);
-            this.panelCatalogos.Name = "panelCatalogos";
-            this.panelCatalogos.Size = new System.Drawing.Size(160, 405);
-            this.panelCatalogos.TabIndex = 13;
-            // 
-            // panelReportes
-            // 
-            this.panelReportes.BackColor = System.Drawing.Color.Silver;
-            this.panelReportes.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panelReportes.Controls.Add(this.SMRep2);
-            this.panelReportes.Controls.Add(this.SMRep3);
-            this.panelReportes.Controls.Add(this.SMRep1);
-            this.panelReportes.Controls.Add(this.SMRep4);
-            this.panelReportes.Location = new System.Drawing.Point(172, 17);
-            this.panelReportes.Name = "panelReportes";
-            this.panelReportes.Size = new System.Drawing.Size(160, 405);
-            this.panelReportes.TabIndex = 12;
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.DarkRed;
-            this.panel2.Controls.Add(this.MenuSeguridad);
-            this.panel2.Controls.Add(this.MenuReportes);
-            this.panel2.Controls.Add(this.MenuOperaciones);
-            this.panel2.Controls.Add(this.MenuCatalogos);
-            this.panel2.Location = new System.Drawing.Point(12, 14);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(154, 354);
-            this.panel2.TabIndex = 9;
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.DarkRed;
-            this.panel1.Location = new System.Drawing.Point(184, 3);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(200, 100);
-            this.panel1.TabIndex = 8;
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.Silver;
-            this.panel4.Controls.Add(this.dataGridView1);
-            this.panel4.Controls.Add(this.label3);
-            this.panel4.Controls.Add(this.label2);
-            this.panel4.Controls.Add(this.Label1);
-            this.panel4.Controls.Add(this.textBox4);
-            this.panel4.Controls.Add(this.textBox2);
-            this.panel4.Controls.Add(this.textBox1);
-            this.panel4.Location = new System.Drawing.Point(184, 12);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(566, 347);
-            this.panel4.TabIndex = 11;
-            // 
-            // SMSeg1
-            // 
-            this.SMSeg1.BackgroundImage = global::Nerv.Properties.Resources.nerv;
-            this.SMSeg1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.SMSeg1.Location = new System.Drawing.Point(12, 13);
-            this.SMSeg1.Name = "SMSeg1";
-            this.SMSeg1.Size = new System.Drawing.Size(57, 58);
-            this.SMSeg1.TabIndex = 0;
-            this.SMSeg1.TabStop = false;
             // 
             // SMOp2
             // 
@@ -190,6 +131,18 @@
             this.SMOp1.Size = new System.Drawing.Size(57, 58);
             this.SMOp1.TabIndex = 0;
             this.SMOp1.TabStop = false;
+            // 
+            // panelCatalogos
+            // 
+            this.panelCatalogos.BackColor = System.Drawing.Color.Silver;
+            this.panelCatalogos.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panelCatalogos.Controls.Add(this.SMCat2);
+            this.panelCatalogos.Controls.Add(this.SMCat3);
+            this.panelCatalogos.Controls.Add(this.SMCat1);
+            this.panelCatalogos.Location = new System.Drawing.Point(338, 17);
+            this.panelCatalogos.Name = "panelCatalogos";
+            this.panelCatalogos.Size = new System.Drawing.Size(160, 405);
+            this.panelCatalogos.TabIndex = 13;
             // 
             // SMCat2
             // 
@@ -220,6 +173,19 @@
             this.SMCat1.Size = new System.Drawing.Size(57, 58);
             this.SMCat1.TabIndex = 0;
             this.SMCat1.TabStop = false;
+            // 
+            // panelReportes
+            // 
+            this.panelReportes.BackColor = System.Drawing.Color.Silver;
+            this.panelReportes.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panelReportes.Controls.Add(this.SMRep2);
+            this.panelReportes.Controls.Add(this.SMRep3);
+            this.panelReportes.Controls.Add(this.SMRep1);
+            this.panelReportes.Controls.Add(this.SMRep4);
+            this.panelReportes.Location = new System.Drawing.Point(172, 17);
+            this.panelReportes.Name = "panelReportes";
+            this.panelReportes.Size = new System.Drawing.Size(160, 405);
+            this.panelReportes.TabIndex = 12;
             // 
             // SMRep2
             // 
@@ -261,14 +227,17 @@
             this.SMRep4.TabIndex = 3;
             this.SMRep4.TabStop = false;
             // 
-            // panel3
+            // panel2
             // 
-            this.panel3.BackgroundImage = global::Nerv.Properties.Resources.nerv;
-            this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel3.Location = new System.Drawing.Point(12, 291);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(200, 100);
-            this.panel3.TabIndex = 10;
+            this.panel2.BackColor = System.Drawing.Color.DarkRed;
+            this.panel2.Controls.Add(this.MenuSeguridad);
+            this.panel2.Controls.Add(this.MenuReportes);
+            this.panel2.Controls.Add(this.MenuOperaciones);
+            this.panel2.Controls.Add(this.MenuCatalogos);
+            this.panel2.Location = new System.Drawing.Point(12, 14);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(154, 354);
+            this.panel2.TabIndex = 9;
             // 
             // MenuSeguridad
             // 
@@ -310,44 +279,37 @@
             this.MenuCatalogos.TabIndex = 4;
             this.MenuCatalogos.TabStop = false;
             // 
-            // textBox1
+            // panel1
             // 
-            this.textBox1.Location = new System.Drawing.Point(131, 63);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 0;
+            this.panel1.BackColor = System.Drawing.Color.DarkRed;
+            this.panel1.Location = new System.Drawing.Point(184, 3);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(200, 100);
+            this.panel1.TabIndex = 8;
             // 
-            // textBox2
+            // panel4
             // 
-            this.textBox2.Location = new System.Drawing.Point(131, 110);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 1;
+            this.panel4.BackColor = System.Drawing.Color.Silver;
+            this.panel4.Controls.Add(this.BtnRegistrarCliente);
+            this.panel4.Controls.Add(this.dataGridView1);
+            this.panel4.Controls.Add(this.label3);
+            this.panel4.Controls.Add(this.label2);
+            this.panel4.Controls.Add(this.Label1);
+            this.panel4.Controls.Add(this.TxtTelefonoCliente);
+            this.panel4.Controls.Add(this.TxtNombreCliente);
+            this.panel4.Controls.Add(this.TxtClaveCliente);
+            this.panel4.Location = new System.Drawing.Point(184, 12);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(566, 347);
+            this.panel4.TabIndex = 11;
             // 
-            // textBox4
+            // dataGridView1
             // 
-            this.textBox4.Location = new System.Drawing.Point(380, 110);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 3;
-            // 
-            // Label1
-            // 
-            this.Label1.AutoSize = true;
-            this.Label1.Location = new System.Drawing.Point(56, 66);
-            this.Label1.Name = "Label1";
-            this.Label1.Size = new System.Drawing.Size(69, 13);
-            this.Label1.TabIndex = 4;
-            this.Label1.Text = "Clave Cliente";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(78, 113);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(47, 13);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "Nombre ";
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(59, 133);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(463, 150);
+            this.dataGridView1.TabIndex = 7;
             // 
             // label3
             // 
@@ -358,19 +320,70 @@
             this.label3.TabIndex = 6;
             this.label3.Text = "Telefono";
             // 
-            // dataGridView1
+            // label2
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(70, 161);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(463, 150);
-            this.dataGridView1.TabIndex = 7;
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(78, 113);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(47, 13);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "Nombre ";
+            // 
+            // Label1
+            // 
+            this.Label1.AutoSize = true;
+            this.Label1.Location = new System.Drawing.Point(56, 66);
+            this.Label1.Name = "Label1";
+            this.Label1.Size = new System.Drawing.Size(69, 13);
+            this.Label1.TabIndex = 4;
+            this.Label1.Text = "Clave Cliente";
+            // 
+            // TxtTelefonoCliente
+            // 
+            this.TxtTelefonoCliente.Location = new System.Drawing.Point(380, 110);
+            this.TxtTelefonoCliente.Name = "TxtTelefonoCliente";
+            this.TxtTelefonoCliente.Size = new System.Drawing.Size(100, 20);
+            this.TxtTelefonoCliente.TabIndex = 3;
+            // 
+            // TxtNombreCliente
+            // 
+            this.TxtNombreCliente.Location = new System.Drawing.Point(131, 110);
+            this.TxtNombreCliente.Name = "TxtNombreCliente";
+            this.TxtNombreCliente.Size = new System.Drawing.Size(100, 20);
+            this.TxtNombreCliente.TabIndex = 1;
+            // 
+            // TxtClaveCliente
+            // 
+            this.TxtClaveCliente.Location = new System.Drawing.Point(131, 63);
+            this.TxtClaveCliente.Name = "TxtClaveCliente";
+            this.TxtClaveCliente.Size = new System.Drawing.Size(100, 20);
+            this.TxtClaveCliente.TabIndex = 0;
+            // 
+            // panel3
+            // 
+            this.panel3.BackgroundImage = global::Nerv.Properties.Resources.nerv;
+            this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel3.Location = new System.Drawing.Point(12, 291);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(200, 100);
+            this.panel3.TabIndex = 10;
+            // 
+            // BtnRegistrarCliente
+            // 
+            this.BtnRegistrarCliente.Location = new System.Drawing.Point(272, 305);
+            this.BtnRegistrarCliente.Name = "BtnRegistrarCliente";
+            this.BtnRegistrarCliente.Size = new System.Drawing.Size(94, 23);
+            this.BtnRegistrarCliente.TabIndex = 8;
+            this.BtnRegistrarCliente.Text = "RegistrarCliente";
+            this.BtnRegistrarCliente.UseVisualStyleBackColor = true;
+            this.BtnRegistrarCliente.Click += new System.EventHandler(this.BtnRegistrarCliente_Click);
             // 
             // CatalogoClientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(822, 425);
+            this.Controls.Add(this.panel4);
             this.Controls.Add(this.panelSeguridad);
             this.Controls.Add(this.panelOperaciones);
             this.Controls.Add(this.panelCatalogos);
@@ -378,32 +391,31 @@
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.panel4);
             this.Name = "CatalogoClientes";
             this.Text = "CatalogoClientes";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.CatalogoClientes_Load);
             this.panelSeguridad.ResumeLayout(false);
-            this.panelOperaciones.ResumeLayout(false);
-            this.panelCatalogos.ResumeLayout(false);
-            this.panelReportes.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.SMSeg1)).EndInit();
+            this.panelOperaciones.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.SMOp2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SMOp1)).EndInit();
+            this.panelCatalogos.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.SMCat2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SMCat3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SMCat1)).EndInit();
+            this.panelReportes.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.SMRep2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SMRep3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SMRep1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SMRep4)).EndInit();
+            this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.MenuSeguridad)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.MenuReportes)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.MenuOperaciones)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.MenuCatalogos)).EndInit();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
@@ -437,8 +449,9 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label Label1;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox TxtTelefonoCliente;
+        private System.Windows.Forms.TextBox TxtNombreCliente;
+        private System.Windows.Forms.TextBox TxtClaveCliente;
+        private System.Windows.Forms.Button BtnRegistrarCliente;
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CapaEntidades;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ClassLibrary1;
 
 namespace Nerv
 {
@@ -16,6 +18,10 @@ namespace Nerv
         {
             InitializeComponent();
         }
+        EntidadCliente objEntidad = new EntidadCliente();
+        NegociosCliente objNegocio = new NegociosCliente();
+        Boolean VerificacionTxt = false;
+
 
         private void CatalogoClientes_Load(object sender, EventArgs e)
         {
@@ -205,6 +211,52 @@ namespace Nerv
             CatalogoProveedores Cprov = new CatalogoProveedores();
             Cprov.Show();
             this.Close();
+        }
+
+        private void BtnRegistrarCliente_Click(object sender, EventArgs e)
+        {
+            VerificarCamposDeTexto();
+            if (VerificacionTxt == false)
+            {
+
+            }
+            else
+            {
+                objEntidad.Nombre_Cliente = TxtNombreCliente.Text;
+                objEntidad.Clave_Cliente = int.Parse(TxtClaveCliente.Text);
+                objEntidad.Telefono_Cliente = int.Parse(TxtTelefonoCliente.Text);
+                int agregar = objNegocio.AgregarUsuarios(objEntidad);
+            }
+        }
+
+        private void VerificarCamposDeTexto()
+        {
+            if (TxtTelefonoCliente.Text.Length == 10)
+            {
+                if (int.Parse(TxtClaveCliente.Text) >= 0)
+                {
+                    if(TxtNombreCliente.Text.Length > 50)
+                    {
+                        VerificacionTxt = true;
+                    }
+                    else
+                    {
+                        VerificacionTxt = false;    
+                        MessageBox.Show("El nombre ingresado no es válido");
+                    }
+                }
+                else
+                {
+                    VerificacionTxt = false;
+                    MessageBox.Show("La Clave del Cliente ingresada no es válida");
+                }
+
+            }
+            else
+            {
+                VerificacionTxt = false;
+                MessageBox.Show("El número de teléfono ingresado no es válido");
+            }
         }
     }
 }
