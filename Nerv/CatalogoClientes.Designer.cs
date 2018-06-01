@@ -49,6 +49,7 @@
             this.MenuCatalogos = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.BtnRegistrarCliente = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -57,7 +58,6 @@
             this.TxtNombreCliente = new System.Windows.Forms.TextBox();
             this.TxtClaveCliente = new System.Windows.Forms.TextBox();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.BtnRegistrarCliente = new System.Windows.Forms.Button();
             this.panelSeguridad.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.SMSeg1)).BeginInit();
             this.panelOperaciones.SuspendLayout();
@@ -302,6 +302,17 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(566, 347);
             this.panel4.TabIndex = 11;
+            this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
+            // 
+            // BtnRegistrarCliente
+            // 
+            this.BtnRegistrarCliente.Location = new System.Drawing.Point(272, 305);
+            this.BtnRegistrarCliente.Name = "BtnRegistrarCliente";
+            this.BtnRegistrarCliente.Size = new System.Drawing.Size(94, 23);
+            this.BtnRegistrarCliente.TabIndex = 8;
+            this.BtnRegistrarCliente.Text = "RegistrarCliente";
+            this.BtnRegistrarCliente.UseVisualStyleBackColor = true;
+            this.BtnRegistrarCliente.Click += new System.EventHandler(this.BtnRegistrarCliente_Click);
             // 
             // dataGridView1
             // 
@@ -367,16 +378,6 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(200, 100);
             this.panel3.TabIndex = 10;
-            // 
-            // BtnRegistrarCliente
-            // 
-            this.BtnRegistrarCliente.Location = new System.Drawing.Point(272, 305);
-            this.BtnRegistrarCliente.Name = "BtnRegistrarCliente";
-            this.BtnRegistrarCliente.Size = new System.Drawing.Size(94, 23);
-            this.BtnRegistrarCliente.TabIndex = 8;
-            this.BtnRegistrarCliente.Text = "RegistrarCliente";
-            this.BtnRegistrarCliente.UseVisualStyleBackColor = true;
-            this.BtnRegistrarCliente.Click += new System.EventHandler(this.BtnRegistrarCliente_Click);
             // 
             // CatalogoClientes
             // 

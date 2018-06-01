@@ -20,7 +20,7 @@ namespace Nerv
         }
         EntidadCliente objEntidad = new EntidadCliente();
         NegociosCliente objNegocio = new NegociosCliente();
-        Boolean VerificacionTxt = false;
+        bool VerificacionTxt = false;
 
 
         private void CatalogoClientes_Load(object sender, EventArgs e)
@@ -215,7 +215,7 @@ namespace Nerv
 
         private void BtnRegistrarCliente_Click(object sender, EventArgs e)
         {
-            VerificarCamposDeTexto();
+            ValidarTB.VerificarCamposDeTextoCliente(TxtTelefonoCliente.Text,TxtClaveCliente.Text,TxtNombreCliente.Text);
             if (VerificacionTxt == false)
             {
 
@@ -229,34 +229,10 @@ namespace Nerv
             }
         }
 
-        private void VerificarCamposDeTexto()
-        {
-            if (TxtTelefonoCliente.Text.Length == 10)
-            {
-                if (int.Parse(TxtClaveCliente.Text) >= 0)
-                {
-                    if(TxtNombreCliente.Text.Length > 50)
-                    {
-                        VerificacionTxt = true;
-                    }
-                    else
-                    {
-                        VerificacionTxt = false;    
-                        MessageBox.Show("El nombre ingresado no es válido");
-                    }
-                }
-                else
-                {
-                    VerificacionTxt = false;
-                    MessageBox.Show("La Clave del Cliente ingresada no es válida");
-                }
 
-            }
-            else
-            {
-                VerificacionTxt = false;
-                MessageBox.Show("El número de teléfono ingresado no es válido");
-            }
+        private void panel4_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

@@ -362,6 +362,7 @@
             this.TxtPrecio_Producto.Name = "TxtPrecio_Producto";
             this.TxtPrecio_Producto.Size = new System.Drawing.Size(100, 20);
             this.TxtPrecio_Producto.TabIndex = 10;
+            this.TxtPrecio_Producto.TextChanged += new System.EventHandler(this.TxtPrecio_Producto_TextChanged);
             // 
             // TxtNombre_Producto
             // 

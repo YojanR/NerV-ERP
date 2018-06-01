@@ -120,6 +120,7 @@
     <Compile Include="ReporteVentas.Designer.cs">
       <DependentUpon>ReporteVentas.cs</DependentUpon>
     </Compile>
+    <Compile Include="ValidarTB.cs" />
     <EmbeddedResource Include="CatalogoClientes.resx">
       <DependentUpon>CatalogoClientes.cs</DependentUpon>
     </EmbeddedResource>

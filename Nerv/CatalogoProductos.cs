@@ -209,13 +209,13 @@ namespace Nerv
             this.Close();
         }
 
-        private Boolean VerificarCamposDeTexto()
+        private Boolean VerificarCamposDeTexto(string Cat, string Cla, string Nom)
         {
-            if (TxtCategoria_Producto.Text.Length < 15)
+            if (Cat.Length < 15)
             {
-                if (int.Parse(TxtClave_Producto.Text) >= 0)
+                if (int.Parse(Cla) >= 0)
                 {
-                    if (TxtNombre_Producto.Text.Length < 5)
+                    if (Nom.Length < 5)
                     {
                         return VerificacionTxt = true;
                     }
@@ -238,6 +238,11 @@ namespace Nerv
                 MessageBox.Show("La Categoria ingresada no es válida");
                 return VerificacionTxt = false;
             }
+        }
+
+        private void TxtPrecio_Producto_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
