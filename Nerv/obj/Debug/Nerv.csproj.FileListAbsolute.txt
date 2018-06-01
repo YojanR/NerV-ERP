@@ -1,0 +1,10 @@
+C:\Users\Kyo\source\repos\Nerv\Nerv\bin\Debug\Nerv.exe.config
+C:\Users\Kyo\source\repos\Nerv\Nerv\bin\Debug\Nerv.exe
+C:\Users\Kyo\source\repos\Nerv\Nerv\bin\Debug\Nerv.pdb
+C:\Users\Kyo\source\repos\Nerv\Nerv\obj\Debug\Nerv.Form1.resources
+C:\Users\Kyo\source\repos\Nerv\Nerv\obj\Debug\Nerv.MenuPrincipal.resources
+C:\Users\Kyo\source\repos\Nerv\Nerv\obj\Debug\Nerv.Properties.Resources.resources
+C:\Users\Kyo\source\repos\Nerv\Nerv\obj\Debug\Nerv.csproj.GenerateResource.Cache
+C:\Users\Kyo\source\repos\Nerv\Nerv\obj\Debug\Nerv.csproj.CoreCompileInputs.cache
+C:\Users\Kyo\source\repos\Nerv\Nerv\obj\Debug\Nerv.exe
+C:\Users\Kyo\source\repos\Nerv\Nerv\obj\Debug\Nerv.pdb

@@ -1,0 +1,14 @@
+C:\Nerv\login nerv\login nerv\bin\Debug\login nerv.exe.config
+C:\Nerv\login nerv\login nerv\bin\Debug\login nerv.exe
+C:\Nerv\login nerv\login nerv\bin\Debug\login nerv.pdb
+C:\Nerv\login nerv\login nerv\bin\Debug\login nerv.xml
+C:\Nerv\login nerv\login nerv\obj\Debug\NERV.vbprojResolveAssemblyReference.cache
+C:\Nerv\login nerv\login nerv\obj\Debug\login_nerv.Form1.resources
+C:\Nerv\login nerv\login nerv\obj\Debug\login_nerv.MenuPrincipal.resources
+C:\Nerv\login nerv\login nerv\obj\Debug\login_nerv.Resources.resources
+C:\Nerv\login nerv\login nerv\obj\Debug\NERV.vbproj.GenerateResource.Cache
+C:\Nerv\login nerv\login nerv\obj\Debug\NERV.vbproj.CoreCompileInputs.cache
+C:\Nerv\login nerv\login nerv\obj\Debug\login nerv.exe
+C:\Nerv\login nerv\login nerv\obj\Debug\login nerv.xml
+C:\Nerv\login nerv\login nerv\obj\Debug\login nerv.pdb
+C:\Nerv\login nerv\login nerv\obj\Debug\login_nerv.UserControl1.resources

@@ -4,15 +4,26 @@
     End Sub
 
     Private Sub Form2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Label1.Left = 2000
-        Label1.Top = 200
-        Label1.Width = 2000
-        Label1.Height = 200
+        Panel2.Height = Height
+        Panel2.Width = 120
+        Panel1.Width = Width
+        Panel1.Height = 100
+        Panel1.Left = 0
+        Panel1.Top = 0
+        Panel2.Left = 0
+        Panel2.Top = 0
+        Panel3.Top = 0
+        Panel3.Left = 0
+        Panel3.Width = Panel2.Width
+        Panel3.Height = Panel1.Height
+        Panel4.Top = Panel1.Top + Panel1.Height
+        Panel4.Left = Panel2.Left + Panel2.Width
+        Panel4.Width = Width - Panel2.Width
+        Panel4.Height = Height - Panel1.Height
+        Button1.Left = Width - 100
+        Button1.Top = Height - 100
+        Panel4.GetContainerControl()
 
-        Label2.Left = 0
-        Label2.Top = 0
-        Label2.Width = 300
-        Label2.Height = 1000
 
     End Sub
 End Class
